@@ -1,0 +1,6 @@
+lippia\web\reporters\TestManagerReporter.class
+lippia\web\services\GoogleSearchResultService.class
+lippia\web\steps\GoogleSearchSteps.class
+lippia\web\constants\GoogleConstants.class
+lippia\web\reporters\CucumberReporter.class
+lippia\web\services\GoogleHomeService.class

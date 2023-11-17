@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-21T01:14:36Z" name="BDD Test Suite" finished-at="2023-10-21T01:14:55Z" duration-ms="19319">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-21T01:14:36Z" name="TestNg Secuencial runner Tests" finished-at="2023-10-21T01:14:55Z" duration-ms="19319">
+      <class name="com.crowdar.bdd.cukes.TestNGSecuencialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" started-at="2023-10-21T01:14:36Z" name="setUpClass" finished-at="2023-10-21T01:14:36Z" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" started-at="2023-10-21T01:14:36Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-21T01:14:42Z" duration-ms="5917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The client search by "crowdar""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a potential client i need to search in google to find a web site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" started-at="2023-10-21T01:14:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-21T01:14:48Z" duration-ms="5863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The client search by "Automation""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a potential client i need to search in google to find a web site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" started-at="2023-10-21T01:14:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-21T01:14:53Z" duration-ms="5024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The client search by "Docker""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a potential client i need to search in google to find a web site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" started-at="2023-10-21T01:14:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-21T01:14:55Z" duration-ms="1747" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The client search by "Lippia""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a potential client i need to search in google to find a web site"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[the client is not on google page]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: the client is not on google page
+at lippia.web.steps.GoogleSearchSteps.isNotHome(GoogleSearchSteps.java:18)
+at ✽.The client isn't on google page(file:src/test/resources/web/features/googleSearch.feature:23)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@1cbbffcd]" started-at="2023-10-21T01:14:55Z" name="tearDownClass" finished-at="2023-10-21T01:14:55Z" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.crowdar.bdd.cukes.TestNGSecuencialRunner -->
+    </test> <!-- TestNg Secuencial runner Tests -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
